@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.outer_container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 550px;
+    height: 550px;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+.search_city{
+    width: 350px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+}
+input{
+    border: none;
+    border-radius: 20px;
+}
+.city{
+    font-size: 28px;
+    color: white;
+    margin: 40px 0;
+}
+.temp_now{
+    font-size: 120px;
+    color: white;
+    margin-top: 40px;
+}
+.sky_condition, .min_max_temp{
+    font-size: 32px;
+    color: white;
+    margin-top: 10px;
+}
